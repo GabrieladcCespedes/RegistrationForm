@@ -1,0 +1,94 @@
+<!-- Alumna: Gabriela Céspedes-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--meta name="viewport" content="width=, initial-scale=1.0"-->
+        <title>Registration From</title>
+    </head>
+    <body>
+        <h1>Registration From</h1>
+        <form>
+            <!-- Ingresa el nombre (text)-->
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" placeholder="Your Name..">
+            </div>
+
+            <!-- Ingresa el apellido (text)-->
+            <div>
+                <label>Last Name: </label>
+                <input type="text" name="lastname" placeholder="Your Last Name..">
+            </div>
+
+            <!-- Ingresa el correo (text)-->
+            <div>
+                <label>Email: </label>
+                <input type="text" name="email" placeholder="Your Email..">
+            </div>
+
+            <!-- Ingresa Contraseña (password)-->
+            <div>
+                <label>Password: </label>
+                <input type="password" name="password" placeholder="Your Password..">
+            </div>
+
+            <!-- Confirma Contraseña (password)-->
+            <div>
+                <label>Confirm Password: </label>
+                <input type="password" name="confirm_password" placeholder="Confirm Your Password..">
+            </div>
+
+             <!-- Ingresa una fecha (date)-->
+            <div>
+                <label>Birthday: </label>
+                <input type="date" name="birthday" placeholder="Your Birthday..">
+            </div>
+
+             <!-- Marca una opcion (radio)-->
+            <label>Gender identity: </label>
+            <div>
+                <input type="radio" name="font" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="font" value="female" id="female">
+                <label from="female">Female</label>
+                <input type="radio" name="font" value="non-binary" id="non-binary">
+                <label for="non-binary">Non-binary</label>
+                <input type="radio" name="font" value="notAnswer" id="notAnswer">
+                <label for="notAnswer">I prefer not answer</label>
+            </div>
+
+             <!-- Area de texto (comment)-->
+            <div>
+                <textarea name="comment" cols="50" rows="5"></textarea>
+            </div>
+
+            <!-- Selecciona una opcion (snack)-->
+            <div>
+                <select name="snack">
+                    <option>JavaScript</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                    <option>C++</option>
+                    <option>C#</option>
+                    <option>PHP</option>
+                    <option>C</option>
+                </select> 
+            </div>
+            
+            <!-- Casilla de verificacion (checkbox)-->
+            <div>
+            <input type="checkbox" name="accept" id="accept"> 
+                <label for="accept">Yes, I would like to receive periodic email updates</label>
+            </input>
+            </div> 
+
+            <!-- Boton (submit)-->
+            <input type="submit" value="Create Account">
+            <div>
+                <label>* Indicates a required field</label>
+            </div>
+            
+        </form>
+    </body>
+</html>
